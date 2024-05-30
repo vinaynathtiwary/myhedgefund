@@ -1,0 +1,248 @@
+
+
+.bg{
+  background-image: linear-gradient(to bottom,rgb(144, 0, 255) 50%, rgb(148, 135, 0) 50%);
+
+  height:100vh;
+  width:100%;
+}
+
+.svg{
+  /* border:2px solid red; */
+  position:absolute;
+  bottom:0;
+  left:50px;
+}
+
+
+
+
+
+.hero{
+   /* display: flex; */
+   /* flex-direction: column;
+   justify-content: center; */
+   /* padding-left:20px;
+   padding-right:20px; */
+   font-size: 50px;
+   font-weight: 700;
+   /* align-items: center; */
+   position: absolute;
+   /* left:calc(50% - 50vw); */
+   top:200px;
+   width:100%;
+   text-align: center;
+   /* color:black; */
+   color:white;
+   /* border:2px solid black; */
+  
+
+}
+
+
+
+
+
+
+.animation{
+  /* color:#2E2E2E; */
+  /* color:black; */
+  /* border:2px solid red; */
+  /* position:absolute; */
+  /* width:300px; */
+  margin-top:40px;
+  font-weight: 600;
+  font-size: 24px;
+
+
+}
+
+.btnhover{
+  /* color:rgb(255, 255, 255); */
+  border:1px solid white;
+  /* border-radius: 10px; */
+  /* background: radial-gradient(72.97% 270% at 50% 50%, rgb(168, 129, 254) 0%, rgb(100, 25, 255) 100%); */
+  /* background-color: #fff; */
+  
+  transition: all 1s ease 0s;
+}
+.btnhover:hover{
+  background:transparent;
+  
+  
+}
+
+
+
+
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Banner styles */
+  .banner {
+    background-color: #f9f9f9;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .banner p {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 30px;
+  }
+  
+  .cta-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  /* Info sections styles */
+  .info-sections {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+  
+  .info-block {
+    flex: 1 1 calc(33.333% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: calc(33.333% - 20px);
+  }
+  
+  .info-block img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .info-block h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .red-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: auto; /* Pushes the button to the bottom */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 992px) {
+    .info-block {
+        flex: 1 1 calc(50% - 20px);
+        max-width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner h1 {
+        font-size: 28px;
+    }
+  
+    .banner p {
+        font-size: 14px;
+    }
+  
+    .cta-link {
+        padding: 8px 16px;
+    }
+  
+    .info-block {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+  
+    .info-sections {
+        justify-content: center;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .banner h1 {
+        font-size: 24px;
+    }
+  
+    .banner p {
+        font-size: 12px;
+    }
+  
+    .cta-link {
+        padding: 6px 12px;
+    }
+  
+    .info-block h2 {
+        font-size: 16px;
+    }
+  
+    .red-button {
+        padding: 8px 16px;
+    }
+  }
+  
+
+  
+  @media only screen and (max-width: 1032px) {
+    .heroline{
+     
+      font-size:60px;
+      
+      /* border:2px solid red; */
+  }
+  
+  
+  }
+  @media only screen and (max-width:819px) {
+    .heroline{
+      top:120px;
+      margin-left:80px;
+      /* width:500px; */
+      /* left:0px; */
+      /* border:2px solid red; */
+      font-size:50px;
+      
+      
+  }
+  
+  
+  }
+  @media only screen and (max-width:460px) {
+    .heroline{
+      top:120px;
+      font-size:50px;
+      margin-left: 15px;;
+      margin-right: 10px;
+      
+      
+  }
+  
+  
+  }
